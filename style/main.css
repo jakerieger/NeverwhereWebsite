@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+html, body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+  color: white;
+}
+
+h1 {
+  font-size: 48pt;
+}
