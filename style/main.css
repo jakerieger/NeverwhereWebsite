@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
 html, body {
   background: url(../img/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: 'Amatic SC', cursive;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
-  color: white;
+  font-weight: normal;
 }
 
 h1 {
@@ -39,4 +38,9 @@ hr:before {
 .container {
  width: 980px;
  margin: 0 auto;
+}
+
+
+.panel {
+  background-image: url(../img/pattern.jpg);
 }
