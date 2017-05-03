@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 html, body {
-  /*background: url(../img/pattern.png);*/
   background: url(../img/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: 'Amatic SC', cursive;
