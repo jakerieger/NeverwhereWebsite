@@ -9,6 +9,8 @@ html, body {
   padding: 0;
   color: white;
   float: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
@@ -17,10 +19,31 @@ h1, h2, h3, h4, h5, h6, a, p {
 
 h1 {
   font-size: 56pt;
+  padding: 0;
+  margin: 0;
 }
 
 p, a {
   font-family: 'Nothing You Could Do', cursive;
+}
+
+.header {
+  margin-bottom: 70px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  padding: 5px;
+  display: inline-block;
+  width: 100px;
+}
+
+.header a:hover {
+  opacity: 0.8;
 }
 
 .seperator {
