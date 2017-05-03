@@ -1,11 +1,14 @@
+@charset "UTF-8";
+
 html, body {
-  background: url(../img/pattern.png);
-  /*background: url(../img/bg.jpg) no-repeat center center fixed;*/
-  /*background-size: cover;*/
+  /*background: url(../img/pattern.png);*/
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Amatic SC', cursive;
   margin: 0;
   padding: 0;
   color: white;
+  float: center;
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
@@ -13,45 +16,55 @@ h1, h2, h3, h4, h5, h6, a, p {
 }
 
 h1 {
-  font-size: 48pt;
+  font-size: 56pt;
 }
 
 p, a {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Nothing You Could Do', cursive;
 }
 
-hr {
-  height: 30px;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px 0 0 0;
-  border-radius: 20px;
-  opacity: 0.5;
+.seperator {
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
 }
-hr:before {
-  display: block;
-  content: "";
-  height: 30px;
-  margin-top: -31px;
-  border-style: solid;
-  border-color: white;
-  border-width: 0 0 1px 0;
-  border-radius: 20px;
-  opacity: 0.5;
+
+.seperator:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+  
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .container {
- width: 980px;
- margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
 }
-
 
 .panel {
   background: url(../img/pattern_02.png);
   color: #333;
-  border: 2px solid #333;
-  border-radius: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-shadow: 0px 0px 15px black;
+  border: 2px solid #8c8b8b;
+  border-radius: 2px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0px 0px 20px #333;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.panel h2 {
+  font-size: 28pt;
+  margin: 0;
+  padding: 0;
 }
