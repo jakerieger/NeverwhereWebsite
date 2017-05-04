@@ -23,22 +23,17 @@
       <div class="panel">
         <h2>S y n o p s i s</h2>
         <div class="seperator"></div>
-        <p>
-          Richard Mayhew is an unassuming young businessman living in London,
-          with a dull job and a pretty but demanding fiancee. Then one night he
-          stumbles across a girl bleeding on the sidewalk. He stops to help her
-          --and the life he knows vanishes like smoke.
-        </p>
+        <p id="synopsis"></p>
         <br>
         <h2>P l o t &nbsp; S u m m a r y</h2>
         <div class="seperator"></div>
-        <p>
-          Richard Mayhew is an unassuming young businessman living in London,
-          with a dull job and a pretty but demanding fiancee. Then one night he
-          stumbles across a girl bleeding on the sidewalk. He stops to help her
-          --and the life he knows vanishes like smoke.
-        </p>
+        <p id="plotSummary"></p>
       </div>
     </div>
+    <script src="js/information.js"></script>
+    <script>
+      document.getElementById('synopsis').innerHTML = synopsis;
+      document.getElementById('plotSummary').innerHTML = plotSummary;
+    </script>
   </body>
 </html>

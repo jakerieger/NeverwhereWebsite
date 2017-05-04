@@ -1,24 +1,19 @@
 var aboutAuthor = `
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus
-est ac mauris congue, ut molestie sapien porta. Cras eget est at sem
-lacinia accumsan. Suspendisse sit amet ipsum rhoncus, iaculis dui id,
-consectetur urna. Curabitur faucibus elementum justo quis ullamcorper.
-Proin laoreet consectetur ipsum, sit amet mollis felis iaculis non.
-Ut sed tempor neque. Aliquam sed neque malesuada, sagittis ex sit amet,
-tempor nisl. Ut tellus arcu, sollicitudin non magna sit amet, convallis
-elementum nunc. Nullam justo libero, malesuada non magna eget, viverra
-bibendum nisl. Mauris vitae aliquet sapien, nec euismod metus. Quisque
-vulputate dui orci, et accumsan justo aliquam in. Donec non enim a diam
-placerat vulputate. Sed ullamcorper, metus id tincidunt imperdiet, felis
-metus eleifend quam, eu vulputate nibh nisl eu lacus. Phasellus tortor ex,
-scelerisque gravida pretium quis, mollis sit amet velit. Quisque libero
-est, blandit vitae mi vel, pulvinar egestas urna. Pellentesque habitant
-morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-Curabitur volutpat nulla quis blandit lacinia. Sed justo turpis,
-efficitur quis ex vel, euismod varius erat. Phasellus aliquet mi arcu,
-volutpat accumsan risus porttitor quis. Donec pulvinar velit eu nisi
-scelerisque, non lacinia metus pellentesque. Nam cursus mi nec elit
-iaculis eleifend. Ut ornare rhoncus enim non placerat. Phasellus in
-metus lacus. Maecenas interdum, ex ac efficitur sodales, est ipsum
-varius ex, non consequat nulla nisl at nisl.
+<b>Neil Gaiman</b> was born November 10th, 1960 in Hamphsire, England. He found his
+love for stories as a child, and for his seventh birthday he received C.S.
+Lewis's The Chronicles of Narnia.
+`
+
+var synopsis = `
+Richard Mayhew decides to leave his life behind in Scotland and move to London.
+A couple years later he has a stodgy job and a beautiful but demanding
+fiancee. Then one night he stumbles across a girl bleeding on the sidewalk.
+He stops to help her --and the life he knows vanishes like smoke.
+`
+
+var plotSummary = `
+Richard Mayhew is an unassuming young businessman living in London, with a dull
+job and a pretty but demanding fiancee. Then one night he stumbles across a girl
+bleeding on the sidewalk. He stops to help her --and the life he knows vanishes
+like smokes.
 `
