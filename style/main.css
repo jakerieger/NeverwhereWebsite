@@ -94,6 +94,22 @@ p, a {
 #neil {
   float: left;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-right: 20px;
+}
+
+.footer {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:visited {
+  color: white;
+}
+
+.footer a:hover {
+  opacity: 0.6;
 }
